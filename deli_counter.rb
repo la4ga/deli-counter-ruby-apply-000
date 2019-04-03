@@ -6,7 +6,15 @@ def line(deli=katz_deli)
   else
     deli.each do |item, index|
       index = index + 1
-      puts "#{item}"
+      puts "#{index}. #{item}"
       end
     end
+end
+
+def take_a_number(deli, name)
+  # TODO: write
+end
+
+def now_serving(deli=katz_deli)
+  ## TODO: write
 end
