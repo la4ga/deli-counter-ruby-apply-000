@@ -7,7 +7,7 @@ def line(deli=katz_deli)
     line_string = 'The line is currently:'
     deli.each_with_index do |item, index|
       index = index + 1
-      line_str << " #{index}. #{item}"
+      line_string << " #{index}. #{item}"
     end
     puts line_str
   end
