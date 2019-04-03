@@ -7,7 +7,7 @@ def line(deli=katz_deli)
     line_str = ''
     deli.each_with_index do |item, index|
       index = index + 1
-      puts "#{index}. #{item}"
+      line_str << "#{index}. #{item}"
       end
     end
 end
