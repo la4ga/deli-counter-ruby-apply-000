@@ -8,6 +8,8 @@ def line(deli=katz_deli)
     end
 end
 
+line(katz_deli)
+
 def take_a_number(deli, name)
   # TODO: write
 end
