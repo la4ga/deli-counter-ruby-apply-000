@@ -12,11 +12,3 @@ def line(deli=katz_deli)
 end
 
 line(katz_deli)
-
-def take_a_number(deli, name)
-  # TODO: write
-end
-
-def now_serving(deli=katz_deli)
-  ## TODO: write
-end
