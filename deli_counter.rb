@@ -8,3 +8,4 @@ def line(deli=katz_deli)
       index = index + 1
       puts "#{item}"
     end
+end
