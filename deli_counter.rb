@@ -8,8 +8,8 @@ def line(deli=katz_deli)
     deli.each_with_index do |item, index|
       index = index + 1
       line_str << " #{index}. #{item}"
-      end
-    end
+    end  
+  end
 end
 
 line(katz_deli)
