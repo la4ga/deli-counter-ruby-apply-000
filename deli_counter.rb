@@ -6,7 +6,7 @@ def line(deli=katz_deli)
   else
     line_string = 'The line is currently:'
     deli.each_with_index do |item, index|
-      line_string << " #{index}. #{item}"
+      line_string << " #{index += 1}. #{item}"
     end
     puts line_string
   end
