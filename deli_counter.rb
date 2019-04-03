@@ -9,8 +9,8 @@ def line(deli=katz_deli)
       index = index + 1
       line_str << " #{index}. #{item}"
     end
-    puts line_str  
+    puts line_str
   end
 end
 
-line(katz_deli)
+def take_a_number(deli)
