@@ -9,3 +9,4 @@ def line(deli=katz_deli)
       puts "#{item}"
     end
 end
+end
