@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = ['A','B','C']
 
 def line(deli=katz_deli)
   if deli.length == 0
