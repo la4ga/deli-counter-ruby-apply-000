@@ -6,5 +6,5 @@ def line(deli=katz_deli)
   else
     deli.each do |item, index|
       index = index + 1
-      puts "#{index}. #{item}"
+      puts "#{item}"
     end
