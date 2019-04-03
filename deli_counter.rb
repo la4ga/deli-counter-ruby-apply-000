@@ -14,7 +14,3 @@ end
 def take_a_number(deli, name)
   # TODO: write
 end
-
-def now_serving(deli=katz_deli)
-  ## TODO: write
-end
