@@ -9,7 +9,7 @@ def line(deli=katz_deli)
       index = index + 1
       line_string << " #{index}. #{item}"
     end
-    puts line_str
+    puts line_string
   end
 end
 
