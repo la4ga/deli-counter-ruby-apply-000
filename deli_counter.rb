@@ -16,5 +16,5 @@ end
 def take_a_number(deli, name)
   deli << name
   position_in_line = deli.length + 1
-  puts "Welcome, #{name}. You are number #{position_in_line}"
+  puts "Welcome, #{name}. You are number #{position_in_line} in line."
 end
