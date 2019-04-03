@@ -4,11 +4,12 @@ def line(deli=katz_deli)
   if deli.length == 0
     puts "The line is currently empty."
   else
-    puts "#{deli}"
+    deli.each_with_index do |item, index|
+      index = index + 1
+      puts "#{index}. #{item}"
+      end
     end
 end
-
-line(katz_deli)
 
 def take_a_number(deli, name)
   # TODO: write
