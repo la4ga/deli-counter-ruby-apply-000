@@ -10,7 +10,3 @@ def line(deli=katz_deli)
     end
 
 end
-
-def take_a_number(deli, name)
-  # TODO: write
-end
